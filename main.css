@@ -1,0 +1,103 @@
+/* Write your CSS code in this file */
+main {
+    background-color: bisque;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border: 5px solid black;
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin: -15px 0 -30px 0;
+}
+#hints {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 10px 70px;
+    width: 60%;
+    height: 55px;
+    padding: 3px;
+}
+.hint {
+    font-size: larger;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    width: auto;
+    height: fit-content;
+    padding: 3px;
+    /* background-color: white; */
+}
+.hint_down{
+    position: relative;
+    top: 20px;
+}
+.hintRight{
+    position: relative;
+    left: 20%;
+}
+.hintLeft {
+    position: relative;
+    right: 20%;
+}
+#the_game {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#guesses {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    margin: 10px 0;
+
+}
+.past_guesses {
+    display: inline-flex;
+    background-color: white;
+    border-radius: 100px;
+    width: 40px;
+    height: 17px;
+    margin: 1vh;
+    justify-content: center;
+    border: 2px solid grey;
+
+}
+#guessBox {
+    border-radius: 50%;
+    border: 3px solid green;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    font-size: larger;
+}
+#submitbox {
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+#hintButton {
+    border-radius: 10px;
+    background-color: lightcoral;
+    color:black;
+}
+.buttons {
+    display: flex;
+}
+#reset1 {
+    background-color: red;
+    color: aliceblue;
+    border-radius: 10px;
+    
+}
+#resetButton{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (min-width: 810px)  {
+    main {
+        margin: auto 125px;
+    }
+}
